@@ -1,6 +1,6 @@
 from domain.Base import Base
 from sqlalchemy import Column, Integer, String
-
+from sqlalchemy.orm import relationship
 
 class Bank(Base):
     __tablename__ = 'banks'
