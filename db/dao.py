@@ -25,7 +25,7 @@ def branch_by_ifsc(ifsc):
 
 def branch(bank_name, city):
     if not (bank_name and city):
-        raise AssertionError("provide either city or bank_name or both")
+        raise AssertionError("provide both city and bank_name")
 
     session = __session()
     filters = list()
