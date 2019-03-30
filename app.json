@@ -2,7 +2,7 @@
   "name": "IFSC Lookup",
   "description": "File Coding Assignment Submission",
   "image": "heroku/python",
-  "repository": "https://git.heroku.com/fyle-ifsc-loopkup.git",
+  "repository": "https://github.com/prashantaher70/fyle-ifsc-loopkup.git",
   "keywords": ["ifsc", "fyle"],
   "addons": [ "heroku-postgresql:hobby-dev" ]
 }
